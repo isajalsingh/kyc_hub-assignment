@@ -1,0 +1,118 @@
+* {
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 75px; /* Adjust this value based on the height of your Navbar */
+}
+
+.sidebar-container {
+  height: 90vh; /* 90% of the viewport height */
+  position: fixed;
+  top: 10vh;
+  padding: 10px;
+  background-color: #1d1f20;
+
+  /* width: 80vh; */
+}
+
+.sidebar-content {
+  min-height: 90vh; /* Minimum height to cover 90% of the viewport */
+}
+
+.nav-link {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #343a40; /* Darker shade on hover */
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.navbar-container {
+  background-color: #1d1f20;
+  /* padding: 10px; */
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items at the start of the flex container */
+  /* padding-top: 10vh;  */
+  padding-left: 18%; /* 20% of viewport width as padding from left */
+  /* padding-right: 20vw; */
+  margin-right: 20px;
+}
+
+.product-table {
+  width: 100%;
+  /* max-width: 800px; Max width of the table */
+  margin: 0 auto; /* Center the table horizontally */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ant-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.aligned-list strong {
+  display: inline-block;
+  width: 70px; /* Adjust this value based on your content */
+}
+
+.aligned-list span {
+  display: inline-block;
+  width: 10px;
+}
+
+.aligned-list :after {
+  margin-right: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.a1-list {
+  display: "flex";
+}
+
+.profile-card {
+  flex: 1;
+  margin-left: 250px; /* Adjust the margin as needed */
+}
+
+.aligned-list1 strong {
+  display: inline-block;
+  width: 100px; /* Adjust this value based on your content */
+}
+
+.aligned-list1 span {
+  display: inline-block;
+  width: 10px;
+}
+
+.aligned-list1 :after {
+  margin-right: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.profile-container {
+  padding: 20px;
+}
